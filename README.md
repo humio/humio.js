@@ -10,7 +10,7 @@ Analytics and Error Logging from the browser to Humio.
 <script src="humio.js"></script>
 <script>
   Humio.init("xt0GSaUvcluUtlRNgV976bUFIIWIsnxue4tCmk0GfHCt")
-  Humio.registerGlobalErrorHandler("JavascriptError");
+  Humio.registerGlobalErrorHandler(window, "JavascriptError", { appVersion: MyApp.version });
 </script>
 ```
 
