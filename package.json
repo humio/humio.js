@@ -1,6 +1,6 @@
 {
   "name": "humio",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Log Browser Errors to Humio",
   "main": "lib/humio.js",
   "repository": "https://github.com/humio/humio.js.git",
