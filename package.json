@@ -1,0 +1,9 @@
+{
+  "name": "humio",
+  "version": "0.0.1",
+  "description": "Log Browser Errors to Humio",
+  "main": "index.js",
+  "repository": "https://github.com/humio/humio.js.git",
+  "author": "Thomas Anagrius",
+  "license": "Apache2"
+}
